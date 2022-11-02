@@ -1,13 +1,13 @@
--ls -$B%*%W%7%g%s%Q%9(B
+-ls　オプションパス
 -pwd
--cd $B%Q%9(B
--mkdir $B%G%#%l%/%H%jL>(B
--mkdir -p $B%G%#%l%/%H%jL>(B
--touch $B%U%!%$%kL>(B
+-cd　パス
+-mkdir　ディレクトリ名
+-mkdir -p　ディレクトリ名
+-touch ファイル名
 -&&
--cp $B%3%T!<85(B $B%3%T!<@h(B
--cp -r $B%3%T!<85(B $B%3%T!<@h(B
--mv $BJQ9985(B $BJQ99@h(B
--rm $B:o=|$9$k%U%!%$%k(Bor $B%G%#%l%/%H%j(B
+-cp コピー元　コピー先
+-cp -r コピー元　コピー先
+-mv 変更元　変更先
+-rm 削除するファイルorディレクトリ
 -cat
--vi $B%U%!%$%kL>(B
+-vi ファイル名
