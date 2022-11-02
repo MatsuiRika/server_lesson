@@ -1,2 +1,1 @@
-trash/*.md
-!trash/gizumo[30..40].md
+trash/*gizumo2[0-9].md

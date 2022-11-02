@@ -1,1 +1,176 @@
-history 300
+    1  ls /
+    2  ls /home
+    3  cd /home
+    4  vi README.md
+    5  :set enc?
+    6  vi READE.md
+    7  chcp 65001
+    8  exit
+    9  cd /root
+   10  cd server_lesson
+   11  git status
+   12  git commit -m 練習問題１の作業分
+   13  git status
+   14  git branch
+   15  git push origin question1
+   16  git checkout -b question2
+   17  git branch
+   18  mkdir linux_practice2
+   19  ls
+   20  cd linux_practice2
+   21  ls
+   22  mkdir documents
+   23  ls
+   24  cd docments
+   25  cd documents
+   26  touch gizumo{01..50}
+   27  ls
+   28  rm gizumo{01..50}
+   29  touch gizumo{01..50}.md
+   30  ls
+   31  cd ..
+   32  mkdir trash
+   33  ls
+   34  cd documents
+   35  ls
+   36  cd ..
+   37  mv documents/gizumo{20..40}.md trash
+   38  ls
+   39  cd trash
+   40  ls
+   41  cd ..
+   42  touch .gitignore
+   43  ls
+   44  touch .gitignore
+   45  ls
+   46  touch 'gitignore'
+   47  ls
+   48  rm -r gitignore
+   49  ls
+   50  touch '.gitignore'
+   51  ls
+   52  ls -a
+   53  vi .gitignore
+   54  touch exec_command.log
+   55  ls
+   56  echo 'history 300' > exec_command.log
+   57  cat exec_command.log
+   58  git status
+   59  cd trash
+   60  ls
+   61  git status
+   62  cd ..
+   63  cd ..
+   64  git status
+   65  ls -a
+   66  cd linux_practice2
+   67  ls -a
+   68  cd ..
+   69  git status
+   70  lunux_practice2
+   71  cd linux_practice2
+   72  git status
+   73  ls
+   74  ls -s
+   75  ls -a
+   76  git status
+   77  cd ..
+   78  git status
+   79  git add linux_practice2
+   80  git status
+   81  cd linux_practice2
+   82  ls -a
+   83  vi .gitignore
+   84  cd ..
+   85  git add linux_practice2
+   86  git status
+   87  cd linux_practice2
+   88  cd trash
+   89  ls
+   90  git rm --cashed gizumo[20..29].md
+   91  git rm --cached gizumo[20..29],md
+   92  git rm --cached gizumo[20..29].md
+   93  git rm --cached gizumo{20..29}.md
+   94  cd ..
+   95  cd ..
+   96  git add linux_practice2
+   97  git status
+   98  git commit -m 練習問題２の作業分
+   99  git branch
+  100  git push origin question2
+  101  cd linux_practice2
+  102  vi gitignore
+  103  ls
+  104  ls -a
+  105  cd gitignore
+  106  cd /gitignore
+  107  cd docments
+  108  ls
+  109  vi .gitignore
+  110  rm gitignore
+  111  ls
+  112  ls -a
+  113  cd trash
+  114  ls
+  115  cd ..
+  116  cd ..
+  117  /
+  118  cd ..
+  119  /
+  120  cd ..
+  121  ls
+  122  cd /root
+  123  ls
+  124  ls /
+  125  ls /root
+  126  ls /root/server_lesson
+  127  cd server_lesson
+  128  ls
+  129  rm first.txt
+  130  ls
+  131  ls /linux_practice1
+  132  ls linux_practice1
+  133  ls linux_practice1/public
+  134  ls linux_practice/tmp
+  135  ls linux_practice1/tmp
+  136  ls linux_practice2/documents
+  137  ls linux_practice2/trash
+  138  ls linux_practice2/.gitignore
+  139  git add linux_practice2
+  140  cd ..
+  141  git status
+  142  cd server_lesson
+  143  git status
+  144  git add server_lesson
+  145  cd ..
+  146  ls
+  147  git add server_lesson
+  148  cd server_lesson
+  149  git status
+  150  git add first.txt
+  151  git status
+  152  git checkout question1
+  153  git branch
+  154  vi READEME.md
+  155  ls
+  156  vi README.md
+  157  rm READEME.md
+  158  git status
+  159  vi README.md
+  160  git checkout master
+  161  git pull origin master
+  162  docker stop centos7
+  163  ls -a
+  164  git branch
+  165  git checkout question2
+  166  git branch
+  167  cd linux_practice2
+  168  ls
+  169  ls -a
+  170  vi .gitignore
+  171  cd ..
+  172  ls
+  173  rm first.txt
+  174  cd linux_practice2
+  175  ls
+  176  history 300 > exec_command.log
